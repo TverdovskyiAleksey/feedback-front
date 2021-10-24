@@ -3,7 +3,7 @@ import axios from "axios";
 export const feedback = async (name, email, message) => {
   try {
     const response = await axios.post(
-      "https://feedback-form-tverdovskyi.herokuapp.com/",
+      "https://feedback-tverdovskyi-back.herokuapp.com/api/feedback",
       {
         name,
         email,
