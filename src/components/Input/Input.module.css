@@ -1,0 +1,14 @@
+.input {
+  width: 557px;
+  /* height: 93px; */
+  padding-top: 31px;
+  padding-right: 46px;
+  padding-bottom: 30px;
+  padding-left: 46px;
+  margin-bottom: 8px;
+
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}

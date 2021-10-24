@@ -1,0 +1,19 @@
+body {
+}
+
+.Container {
+  background-image: url(../../images/Cloud.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1170px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .Container {
+    padding-bottom: 18px;
+  }
+}
