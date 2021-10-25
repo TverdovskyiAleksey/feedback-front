@@ -1,6 +1,3 @@
-body {
-}
-
 .Container {
   background-image: url(../../images/Cloud.png);
   background-repeat: no-repeat;
@@ -12,8 +9,14 @@ body {
   margin-right: auto;
   background-size: cover;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 375px) {
   .Container {
-    padding-bottom: 18px;
+    width: 320px;
+    min-height: auto;
+    margin: 0;
+    background-image: url(../../images/Cloud.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }

@@ -41,13 +41,15 @@ const Form = () => {
           type="text"
           placeholder="Your e-mail*"
         />
-        <Input
-          className={style.inputText}
+        <textarea
+          className={style.textarea}
+          cols="30"
+          rows="10"
           value={message}
           setValue={setMessage}
           type="text"
           placeholder="Your message*"
-        />
+        ></textarea>
         <button className={style.btn} onClick={btnClick}>
           Send message
         </button>
