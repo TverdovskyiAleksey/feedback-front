@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { feedback } from "../../actions/user";
 import Input from "../Input/Input";
+import Textarea from "../Textarea/Textarea";
+
 import style from "./Form.module.css";
 import logo from "./MaskGroup.png";
 import vector3 from "./Vector3.png";
@@ -41,7 +43,7 @@ const Form = () => {
           type="text"
           placeholder="Your e-mail*"
         />
-        <textarea
+        <Textarea
           className={style.textarea}
           cols="30"
           rows="10"
@@ -49,7 +51,7 @@ const Form = () => {
           setValue={setMessage}
           type="text"
           placeholder="Your message*"
-        ></textarea>
+        />
         <button className={style.btn} onClick={btnClick}>
           Send message
         </button>
